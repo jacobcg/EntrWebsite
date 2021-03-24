@@ -1,0 +1,33 @@
+body {
+    max-width: 1000px;
+}
+header {
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+header > h1 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+#formDiv {
+    width: 100%;
+    margin-top: 300px;
+}
+
+#judgeInput {
+    width: 70%;
+    float: left;
+}
+
+#judgeButton {
+    width: 20%;
+    margin-left: 5%;
+}
+
+#theJudged img {
+    max-height: 100px;
+}
