@@ -1,16 +1,3 @@
-/*tweet = retrieveTweet();
-
-// API KEY - QeTb3e05EAFH6HBtcrquI271v
-export CONSUMER_KEY='QeTb3e05EAFH6HBtcrquI271v';
-
-// API SECRET KEY - tt6CvIZcCL6dOi5eLefgvlEYv20lp3NemCdBasqQgxmEMjUMsx
-export CONSUMER_SECRET='tt6CvIZcCL6dOi5eLefgvlEYv20lp3NemCdBasqQgxmEMjUMsx';
-// BEARER TOKEN - AAAAAAAAAAAAAAAAAAAAAM%2B2NwEAAAAATKMqCkeUig4JuujyEMfa6n%2FFvEM%3D0CrvVAv4ggin0sAvSSHWDXNBNTsK02JudWvKGwR0jPjn870zvZ
-
-//ACCESS TOKEN - AAAAAAAAAAAAAAAAAAAAAM%2B2NwEAAAAATKMqCkeUig4JuujyEMfa6n%2FFvEM%3D0CrvVAv4ggin0sAvSSHWDXNBNTsK02JudWvKGwR0jPjn870zvZ
-
-//ACCESS TOKEN SECRET - aQORkj2nsBr7xSmIXVdiPlwDMxo4M15pi3M4V6vxpVQ04*/
-
 
 document.addEventListener("DOMContentLoaded", function() {
     const inputBar = document.querySelector('#judgeInput');
@@ -25,14 +12,14 @@ document.addEventListener("DOMContentLoaded", function() {
         const followerCount = document.createElement('h3');
         const goodOrBad = document.createElement('img');
         
-        //Creating name of person
-        nameInput = document.querySelector('#judgeInput').value.toLowerCase();
+       
         
-        if (namInput == 'stuff') {
-            
-        }
+        //Creating name of person
+        nameInput = document.querySelector('#judgeInput').value
         
         nameOfPerson.textContent = "Name: " + nameInput;
+        
+        nameInput = nameInput.replace(/\s/g, "").toLowerCase();
         
         //Setting image
         imageOfPerson.setAttribute('src', `./images/${nameInput}.jpg`);

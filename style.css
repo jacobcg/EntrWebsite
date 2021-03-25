@@ -13,6 +13,18 @@ header > h1 {
     padding-top: 25px;
 }
 
+img {
+    max-height: 200px;
+}
+
+#theAccused img {
+    padding-left: 50px;
+}
+
+#theAccused, #accusedNames {
+    display:flex;
+}
+
 #formDiv {
     width: 100%;
     margin-top: 300px;
@@ -30,4 +42,9 @@ header > h1 {
 
 #theJudged img {
     max-height: 100px;
+}
+
+#accusedNames h3 {
+    padding-left: 50px;
+    padding-right: 200px;
 }
